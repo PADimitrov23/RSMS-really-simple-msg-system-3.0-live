@@ -1,10 +1,6 @@
 How to start the program
 
-Linux:
-
-1. cd ~/Documents/YourUser/...../really-simple-msg-system-2.0
-2. g++ -g main.cpp database.cpp chat-history-ui.cpp ask-to-type-msg.cpp -o simple-msg-system -lsqlite3
-3.  ./really-simple-msg-system-2.0
+Linux
 
         "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
         "⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
@@ -27,3 +23,9 @@ Linux:
         "⠀⠛⠋⠉⠁⠀⣀⣴⡿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣤⣀⡀⠀⠀⠀⠀⠘⠃",
         "⠀⠀⢀⣤⡶⠟⠉⠁⠀⠀⠉⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠉⠀⠀⠀⠉⠙⠳⠶⣄⡀⠀⠀",
         "⠀⠀⠙⠁⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀"
+
+INSTRUCTIONS COMMING SOON THE PROJECT IS STILL HEAVILY IN DEVELOPMENT
+
+PLS DONT OPEN
+
+THE WEBSOCKET USED IS FROM https://gitlab.com/eidheim/Simple-WebSocket-Server FULL CREDITS
