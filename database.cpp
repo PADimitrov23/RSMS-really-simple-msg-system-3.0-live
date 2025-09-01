@@ -57,7 +57,7 @@ if (db) {
 
 bool insertSender(sqlite3* db, string sender, string message)
 {
-    // Example SQL insertion
+    
     std::string sql = "INSERT INTO messages (sender, message) VALUES (?, ?);";
     sqlite3_stmt* stmt;
 
