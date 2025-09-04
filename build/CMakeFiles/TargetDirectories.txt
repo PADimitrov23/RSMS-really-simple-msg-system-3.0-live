@@ -1,5 +1,13 @@
-/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/CMakeFiles/really-simple-msg-system.dir
 /home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/CMakeFiles/edit_cache.dir
 /home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/CMakeFiles/rebuild_cache.dir
 /home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/Websocket/CMakeFiles/edit_cache.dir
 /home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/Websocket/CMakeFiles/rebuild_cache.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/client/CMakeFiles/client.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/client/CMakeFiles/edit_cache.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/client/CMakeFiles/rebuild_cache.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/server/CMakeFiles/server.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/server/CMakeFiles/edit_cache.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/server/CMakeFiles/rebuild_cache.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/shared/CMakeFiles/shared.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/shared/CMakeFiles/edit_cache.dir
+/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/shared/CMakeFiles/rebuild_cache.dir

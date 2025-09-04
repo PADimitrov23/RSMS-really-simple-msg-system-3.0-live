@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/client.dir/link.d CMakeFiles/client.dir/client.cpp.o "CMakeFiles/client.dir/ask-to-type-msg.cpp.o" "CMakeFiles/client.dir/chat-history-ui.cpp.o" -o client  ../shared/libshared.a /usr/lib/libboost_system.so.1.88.0 /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libsqlite3.so

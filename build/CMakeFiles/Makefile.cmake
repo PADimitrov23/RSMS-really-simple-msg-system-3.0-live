@@ -12,6 +12,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
+  "/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/client/CMakeLists.txt"
+  "/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/server/CMakeLists.txt"
+  "/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/shared/CMakeLists.txt"
   "/usr/lib/cmake/Boost-1.88.0/BoostConfig.cmake"
   "/usr/lib/cmake/Boost-1.88.0/BoostConfigVersion.cmake"
   "/usr/lib/cmake/BoostDetectToolset-1.88.0.cmake"
@@ -72,9 +75,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Websocket/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "client/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "server/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "shared/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/really-simple-msg-system.dir/DependInfo.cmake"
+  "client/CMakeFiles/client.dir/DependInfo.cmake"
+  "server/CMakeFiles/server.dir/DependInfo.cmake"
+  "shared/CMakeFiles/shared.dir/DependInfo.cmake"
   )

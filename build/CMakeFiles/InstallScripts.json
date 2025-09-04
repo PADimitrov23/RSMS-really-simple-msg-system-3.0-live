@@ -2,7 +2,10 @@
 	"InstallScripts" : 
 	[
 		"/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/cmake_install.cmake",
-		"/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/Websocket/cmake_install.cmake"
+		"/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/Websocket/cmake_install.cmake",
+		"/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/client/cmake_install.cmake",
+		"/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/server/cmake_install.cmake",
+		"/home/Polar/Documents/cpp-projects/simple-msg-system-3.0-live/build/shared/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

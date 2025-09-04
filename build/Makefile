@@ -117,113 +117,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named really-simple-msg-system
+# Target rules for targets named client
 
 # Build rule for target.
-really-simple-msg-system: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 really-simple-msg-system
-.PHONY : really-simple-msg-system
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
 
 # fast build rule for target.
-really-simple-msg-system/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/build
-.PHONY : really-simple-msg-system/fast
+client/fast:
+	$(MAKE) $(MAKESILENT) -f client/CMakeFiles/client.dir/build.make client/CMakeFiles/client.dir/build
+.PHONY : client/fast
 
-ask-to-type-msg.o: ask-to-type-msg.cpp.o
-.PHONY : ask-to-type-msg.o
+#=============================================================================
+# Target rules for targets named server
 
-# target to build an object file
-ask-to-type-msg.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/ask-to-type-msg.cpp.o
-.PHONY : ask-to-type-msg.cpp.o
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
-ask-to-type-msg.i: ask-to-type-msg.cpp.i
-.PHONY : ask-to-type-msg.i
+# fast build rule for target.
+server/fast:
+	$(MAKE) $(MAKESILENT) -f server/CMakeFiles/server.dir/build.make server/CMakeFiles/server.dir/build
+.PHONY : server/fast
 
-# target to preprocess a source file
-ask-to-type-msg.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/ask-to-type-msg.cpp.i
-.PHONY : ask-to-type-msg.cpp.i
+#=============================================================================
+# Target rules for targets named shared
 
-ask-to-type-msg.s: ask-to-type-msg.cpp.s
-.PHONY : ask-to-type-msg.s
+# Build rule for target.
+shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shared
+.PHONY : shared
 
-# target to generate assembly for a file
-ask-to-type-msg.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/ask-to-type-msg.cpp.s
-.PHONY : ask-to-type-msg.cpp.s
-
-chat-history-ui.o: chat-history-ui.cpp.o
-.PHONY : chat-history-ui.o
-
-# target to build an object file
-chat-history-ui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/chat-history-ui.cpp.o
-.PHONY : chat-history-ui.cpp.o
-
-chat-history-ui.i: chat-history-ui.cpp.i
-.PHONY : chat-history-ui.i
-
-# target to preprocess a source file
-chat-history-ui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/chat-history-ui.cpp.i
-.PHONY : chat-history-ui.cpp.i
-
-chat-history-ui.s: chat-history-ui.cpp.s
-.PHONY : chat-history-ui.s
-
-# target to generate assembly for a file
-chat-history-ui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/chat-history-ui.cpp.s
-.PHONY : chat-history-ui.cpp.s
-
-client.o: client.cpp.o
-.PHONY : client.o
-
-# target to build an object file
-client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/client.cpp.o
-.PHONY : client.cpp.o
-
-client.i: client.cpp.i
-.PHONY : client.i
-
-# target to preprocess a source file
-client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/client.cpp.i
-.PHONY : client.cpp.i
-
-client.s: client.cpp.s
-.PHONY : client.s
-
-# target to generate assembly for a file
-client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/client.cpp.s
-.PHONY : client.cpp.s
-
-database.o: database.cpp.o
-.PHONY : database.o
-
-# target to build an object file
-database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/database.cpp.o
-.PHONY : database.cpp.o
-
-database.i: database.cpp.i
-.PHONY : database.i
-
-# target to preprocess a source file
-database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/database.cpp.i
-.PHONY : database.cpp.i
-
-database.s: database.cpp.s
-.PHONY : database.s
-
-# target to generate assembly for a file
-database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/really-simple-msg-system.dir/build.make CMakeFiles/really-simple-msg-system.dir/database.cpp.s
-.PHONY : database.cpp.s
+# fast build rule for target.
+shared/fast:
+	$(MAKE) $(MAKESILENT) -f shared/CMakeFiles/shared.dir/build.make shared/CMakeFiles/shared.dir/build
+.PHONY : shared/fast
 
 # Help Target
 help:
@@ -233,19 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... really-simple-msg-system"
-	@echo "... ask-to-type-msg.o"
-	@echo "... ask-to-type-msg.i"
-	@echo "... ask-to-type-msg.s"
-	@echo "... chat-history-ui.o"
-	@echo "... chat-history-ui.i"
-	@echo "... chat-history-ui.s"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
-	@echo "... database.o"
-	@echo "... database.i"
-	@echo "... database.s"
+	@echo "... client"
+	@echo "... server"
+	@echo "... shared"
 .PHONY : help
 
 
