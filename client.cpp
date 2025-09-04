@@ -14,7 +14,7 @@ int main()
     sqlite3* db;
     sqlite3_open("chatLocal.db", &db);
 
-    SocketClient<WS> websocketClient("ws://localhost:80085");
+    SocketClient<WS> websocketClient("ws://localhost:8008");
 
     const std::string lightPurple = "\033[95m";
     const std::string reset = "\033[0m";

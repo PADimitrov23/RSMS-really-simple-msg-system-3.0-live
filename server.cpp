@@ -15,7 +15,7 @@ sqlite3* db;
 sqlite3_open("chatGlobal.db", &db);
 
     SocketServer<WS> server;
-    server.config.port = 80085;
+    server.config.port = 8008;
     auto &rsms = server.endpoint["/rsms/"];
 
     rsms.on_message = [&](shared_ptr<WsServer::Connection> connection, shared_ptr<WsServer::InMessage> msg) {
